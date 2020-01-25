@@ -9,7 +9,7 @@ class Triangle
   end 
   
   def kind 
-        # valid
+        valid
       if a==b && b==c 
         :equilateral
       elsif a==b || b==c || a==c 
